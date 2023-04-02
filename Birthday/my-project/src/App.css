@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  width: 90vw;
+  margin: 0 auto;
+  background-color: white;
+}
+body{
+  background-color: blanchedalmond;
+}
+.person{
+
+  display: flex;
+  
+  margin: 1.5rem auto;
+  width: 50vw;
+ 
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.image{
+  
+  width:5rem;
+  height: 5rem;
+  border-radius: 50%;
+  
+  
+  
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.name-age{
+  
+  
+  margin-right:auto;
+
+}
+
+.name{
+  
+  margin: 0 auto;
+  
+  width:10rem;
+  text-align: left;
+  font-weight: bolder;
+}
+.name span{
+  
+  
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  
+}
+.age{
+  text-align: left;
+  margin-left: 1rem;
+  width:10rem;
+  font-size: 18px;
+  
+}
+.btn-user{
+  margin-top: 1.3rem;
+  
+  background-color: rgb(47, 220, 20);
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.btn-clear{
+  font-size: 40px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+
+@media (min-width:768px){
+  .person{
+    width: 20vw;
+    
+  }
+}
+
+
+
