@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   background-image: linear-gradient( to bottom right , red , yellow);
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   margin: 0;
+   background-attachment: fixed;
+}
+.calculator{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: rgb(109, 109, 109);
+    width: 50%;
+    margin-top:100px;
+    height: 550px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    }
+
+.screen{
+   grid-column: 1/5;
+   background-color: rgb(127, 255, 168);
+   width: 95%;
+   height: 50px;
+   margin: 18px 10px 10px 10px;
+   border-radius: 15px;
+   box-shadow: inset -5px -5px 10px white,
+               inset  5px 5px 10px black;
+
+   border: none;
+            
+   
+   
+}
+.numbers{
+    background-color: black;
+    color: white;
+    line-height: 70px;
+    border-radius: 25px;
+    margin: 4px 4px 4px 4px;
+    box-shadow: -3px -3px 8px white,
+                 3px 3px 8px black;
+    border: none;
+}
+.arith{
+    line-height: 70px;
+    color: white;
+    background-color: rgb(180, 178, 178);
+    border-radius: 25px;
+    margin: 4px 4px 4px 4px;
+    box-shadow: -3px -3px 8px white,
+    3px 3px 8px black;
+    border: none;
+    
+}
+.size{
+    font-size: 35px;
+}
+.final{
+    line-height: 70px;
+    color: white;
+    background-color: rgb(180, 178, 178);
+    border-radius: 25px;
+    margin: 4px 4px 4px 4px;
+    box-shadow: -3px -3px 8px white,
+    3px 3px 8px black;
+    border: none;
+}
+.ace{
+    grid-row:6;
+    grid-column: 1/5;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 4px 4px 4px 4px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: -3px -3px 8px white,
+    3px 3px 8px black;
+    border: none;
+}
+.size:hover{
+    box-shadow: inset -3px -3px 8px white,
+    inset  3px 3px 8px black;
+
+border: none;
+ 
+} 
+
+@media screen and (max-width:768px) {
+    body{
+        background-image: linear-gradient( to bottom right , rgb(191, 0, 255) , yellow);
+    }
+    .calculator{
+        width: 90vw;
+    }
+}
+
+
+
