@@ -4,4 +4,4 @@ JWTCODE=
 
 
 
-//make sure you make your .env file and add these details of your moono.db
+//make sure you make your .env file and add these details of your moono.db inside back-end folder
