@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+body {
+  margin: 0;
+ 
+    font-family: 'Poppins',sans-serif;
+    background-size:cover ;
+    min-height: 100vh;
+    background: linear-gradient(rgba(247, 248, 248, 0.7), rgba(218, 186, 245, 0.7)),
+      url("https://www.pixelstalk.net/wp-content/uploads/images1/Airport-Images-Download.jpg") center/cover no-repeat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

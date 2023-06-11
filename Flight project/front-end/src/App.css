@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-link{
+ 
+  color: rgb(197, 194, 194);
+  
+ 
+
+}
+
+.navbar-bg{
+  background-color: rgb(129, 1, 1);
+}
+.navbar{
+  padding: 0;
+}
+.navbar-brand{
+  color: white;
+  
+}
+.content-in-center{
+  margin-top: 2rem;
+  text-align: center;
+}
+.register-container{
+  border: 1px solid rgb(15, 15, 15);
+  width: 70%;
+ margin :0 auto;
+ padding-bottom: 1rem;
+}
+.log-reg-input{
+  width: 80%;
+}
+.log-reg-btn{
+  background-color: rgb(129, 1, 1);
+}
+.log-reg-btn:hover{
+  background-color: black;
+  color: white;
+}
+.active{
+  color: white;
+ font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.destination-container{
+
+  border: 1px solid rgb(14, 13, 13);
+  width: 60%;
+ margin :0 auto;
+ margin-top: 3rem;
+ padding: 1rem;
+}
+label{
+  color: rgb(129, 1, 1);
+  font-size: larger;
+  font-weight: 600;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem; 
+}
+.check-date{
+  background-color: rgb(129, 1, 1) ;
+  padding: 0.3rem;
+  border-radius: 10px;
+}
+.check-date:hover{
+  color: white;
+  background-color: black;
+}
+.date-container{
+ 
+  width: 30%;
+  
+  border: 1px solid black;
+   margin: 0  auto;
+  margin-top: 2rem;
+  
+}
+.date-title{
+ text-align: center;
+
+ color:  rgb(129, 1, 1);
+}
+
+.dates{
+  margin-top: 1rem;
+ text-align: center;
+ padding: 0.3rem;
+}
+.dates:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  
+}
+.selected{
+  background-color: rgb(129, 1, 1) ;
+}
+.price-container{
+  
+  margin: 0 auto;
+  width: 40%;
+  height: 10rem;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+.price-title{
+  text-align: center;
+
+color:  rgb(129, 1, 1);
+}
+.prices{
+  margin-top: 2rem;
+  text-align: center;
+  padding: 0.3rem;
+}
+.prices:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.booking-title{
+  text-align: center;
+  margin-top: 3rem;
+}
+.heading-info{
+  
+  width: 70%;
+ margin :0 auto;
+
+ padding: 0.1rem;
+}
+.booking-container{
+
+  border: 1px solid rgb(14, 13, 13);
+  width: 70%;
+ margin :0 auto;
+
+ padding: 0.5rem;
+}
+
+.booking-table{
+  font-size: 9px;
+  gap: 2;
+  padding: 3px;
+  margin:0 auto ;
+}
+.heading{
+  font-size: 10px;
+ font-weight: bolder;
+  padding: 3px;
+  margin:0 auto ;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .nav-link{
+ 
+    color: rgb(197, 194, 194);
+    border: 1px solid rgb(255, 255, 255);
+    transform: skew(-15deg); /* Apply a skew transformation */
+    display: inline-block; /* Display as inline block to avoid stretching */
+  
+  }
+  .nav-link{
+ 
+    color: rgb(197, 194, 194);
+    border: 1px solid rgb(255, 255, 255);
+   
+  
+  }
+  .navbar-brand{
+    color: white;
+    padding-right: 45rem;
+  }
+  .destination-form{
+    display: flex;
+  }
+  .from{
+    margin-left: auto;
+  }
+  .date-price-container{
+    display: flex;
+    width: 53%;
+    
+    margin: 0 auto;
+  }
+  .date-container{
+ 
+    width: 35%;
+    
+    border: 1px solid black;
+   
+    margin-top: 2rem;
+    
+  }
+  .price-container{
+    margin-top: 5rem;
+    margin-left: auto;
+    width: 40%;
+    height: 13rem;
+    border: 1px solid black;
+  }
+  .price-title{
+    text-align: center;
+
+ color:  rgb(129, 1, 1);
+  }
+  .booking-title{
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .heading-info{
+    
+    width: 70%;
+   margin :0 auto;
+  
+   padding: 0.1rem;
+  }
+  .booking-container{
+  
+    border: 1px solid rgb(14, 13, 13);
+    width: 70%;
+   margin :0 auto;
+  
+   padding: 0.5rem;
+  }
+  
+  .booking-table{
+    font-size: 14px;
+    gap: 2;
+    padding: 3px;
+    margin:0 auto ;
+  }
+  .heading{
+    font-size: 16px;
+   font-weight: bolder;
+    padding: 3px;
+    margin:0 auto ;
+  }
+  
+
+}
