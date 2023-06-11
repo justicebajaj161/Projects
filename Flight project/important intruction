@@ -1,0 +1,7 @@
+DB_USERNAME=
+DB_PASSWORD=
+JWTCODE=
+
+
+
+//make sure you make your .env file and add these details of your moono.db
