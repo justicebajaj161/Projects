@@ -1,0 +1,5 @@
+DB_USERNAME=
+DB_PASSWORD=
+
+
+put nyour mongo db username and password in .env to run this 
