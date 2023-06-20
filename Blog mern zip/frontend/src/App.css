@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+.desc{
+  font-weight: bolder;
+  font-size: larger;
+}
+.blog-photo-container{
+  width: 40%;
+  height: 20rem;
+  margin: 0 auto;
+  border: 2px solid rgb(0, 0, 0);
+}
+.blog-photo{
+  width: 100%;
+  height: 100%;
+  
+}
+.your-blogs{
+  color: black;
+  font-family:cursive;
+  text-decoration: underline black ;
+}
+.create-button button{
+  border-radius: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(14, 209, 14);
+}
+.create-button button:hover{
+  background-color: rgb(146, 247, 213);
+}
+.blogs-container{
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 55%;
+ /* border: 1px solid black; */
+ padding: 1rem;
+}
+.blogs-row{
+  padding: 0.2rem;
+  display: flex;
+  border: 1px solid black;
+ background-color: rgb(95, 93, 93);
+ cursor: pointer;
+ margin: 0.8rem;
+}
+.blogs-row:hover{
+  background-color: rgb(160, 156, 156);
+}
+.blog-name{
+  font-weight: bold;
+  color: white;
+}
+.update-button{
+  margin-left:auto ;
+  color: white;
+  margin-right: 8px;
+  background-color: rgb(50, 164, 240);
+  font-size: 13px;
+  padding: 2px;
+  border-radius: 5px;
+}
+.delete-button{
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  padding: 2px;
+  border-radius: 5px;
+}
+.update-button:hover{
+  background-color: aqua;
+}
+.delete-button:hover{
+  background-color: #bd0707;
+}
+
+
+.create-blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+form {
+  width: 400px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family:cursive;
+  text-decoration: underline black ;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7); 
+  z-index: 9999;
+}
+
+
+
+
